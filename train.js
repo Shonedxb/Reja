@@ -1,4 +1,44 @@
 
+
+// // B-TASK STARTS
+// // function countDigits(string) {
+// //   let count = 0;
+// //   for (let n of string) {
+// //     if(n >= "0" && n <= "9"){
+// //       count++; 
+// //     }
+// //   }
+// //   return count;
+// // }
+ 
+// // const natija = countDigits("fsidfi324fasdfa3ini3n");
+// // console.log(natija);
+// // // B-TASK ENDS
+
+// // --------------------------------------------------------
+
+
+// // A-TASK STARTS
+
+// // function count_letter(element, string) {
+// //     let count = 0; // a variable to store the count of occurences
+// //     for (let i = 0; i < string.length; i++) {
+// //       // condition to check if the character at the current position is equal to specific letter required!
+// //       if (string[i] === element) {
+// //         count++; // if true increment by 1
+// //       }
+// //     }
+// //     return count ? count : "there is no such alphabet";
+// //   };
+// //   console.log(count_letter("e", "engineer")); 
+// //   console.log(count_letter("t", "engineer")); 
+// //   console.log(count_letter("b", "bubble-bus"));
+// //   // charAt() = a method that returns the character at a specified index (position) in a string.
+  
+  
+//   // A-TASK ENDS
+
+
 /* Asychronous Functions*/
 // // console.log("Jack Ma Maslahatlari");
 
@@ -81,4 +121,63 @@
 // //     console.log(javob);
 // // }
 // // run();
+
+////////////////////////////////////// Task-A ////////////////////////////////
+
+
+
+// // let count_soz = 0;
+// // function topHarf(soz, harf) {
+// //     // let count_soz = 0;
+// //     for (let position = 0;position < harf.length; position++) {
+// //         if (harf.charAt(position) == soz) {
+// //             count_soz += 1;
+// //         }
+// //     }
+// //     return count_soz;
+// // }
+
+// // // Variant 1
+// // gucci = topHarf("c", "guccci");
+// // console.log("Gucci da c nechta?", gucci);
+// // //// Variant 2
+// // // console.log(topHarf("e","enginer"));
+
+
+
+// // function qoldiqTopish(a, b, callback) {
+// //     if(b===0) callback("Bo'luvchi 0 ga teng bo'lmasligi lozim", null);
+// //     else {
+// //         callback(null, a % b);
+// //     }
+// // }
+
+// // qoldiqTopish(5,0, (err, data) => {
+// //     if(err) {
+// //         console.log(err);
+// //     } else {
+// //         console.log("qoldiq", data);
+// //     }
+// // });
+
+
+
+// // let promise = new Promise(function (resolve, reject) {
+// //     const x = "geeksforgeeks";
+// //     const y = "geeksforgeeks"
+// //     if (x === y) {
+// //         resolve();
+// //     } else {
+// //         reject();
+// //     }
+// // });
+
+// // promise.
+// //     then(function () {
+// //         console.log('Success, You are a GEEK');
+// //     }).
+// //     catch(function () {
+// //         console.log('Some error has occurred');
+// //     });
+
 
