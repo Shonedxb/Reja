@@ -38,14 +38,10 @@
 //   }
 //   return count;
 // }
-
 // const result = count_digits("ah98mad7al3ie1v");
 // console.log(result);
 
-
-
-
-//   // A-TASK ENDS
+//   // B-TASK ENDS
 
 
 /* Asychronous Functions*/
