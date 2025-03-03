@@ -19,12 +19,17 @@
 // //   console.log(count_letter("t", "engineer")); 
 // //   console.log(count_letter("b", "bubble-bus"));
 // //   // charAt() = a method that returns the character at a specified index (position) in a string.
-  
-  
+
 //   // A-TASK ENDS
 
 
+
+
+
+
+
 // // B-TASK STARTS
+
 //Shunday function tuzing, u 1ta string parametrga ega bolsin, 
 //hamda osha stringda qatnashgan raqamlarni sonini bizga return qilsin.
 //MASALAN countDigits("ad2a54y79wet0sfgb9") 7ni return qiladi.
@@ -42,6 +47,44 @@
 // console.log(result);
 
 //   // B-TASK ENDS
+
+
+
+
+
+// // C-TASK STARTS
+
+    // Shunday function tuzing, u 2ta string parametr ega bolsin, hamda //
+    // agar har ikkala string bir hil harflardan iborat bolsa true aks //
+    // holda false qaytarsin //
+    // MASALAN checkContent("mitgroup", "gmtiprou") return qiladi true; //
+
+// const checkContent = (a, b) => {
+//   const arr = b.split("");
+//   const new_arr = [];
+//   for (let i = 0; i < arr.length; i++) {
+//     let count = 0;
+//     if (a.length === arr.length && a.includes(arr[i])) {
+//       count++;
+//     }
+//     new_arr.push(count);
+//   }
+//   if (new_arr.includes(0)) {
+//     return false;
+//   } else {
+//     return true;
+//   }
+// };
+
+// const result = checkContent("mitgroup", "groupmti");
+// console.log(result);
+
+
+//   // C-TASK ENDS
+
+
+
+
 
 
 /* Asychronous Functions*/
