@@ -167,12 +167,36 @@
 // // console.log(trade.sotish("cola", 2));
 // // console.log(trade.qabul("non", 2));
 
-////////////////////////////////// C-TASK ENDS //////////////////////////////////
+////////////////////////////////// D-TASK ENDS //////////////////////////////////
 
 
 
 
 
+
+
+
+
+////////////////////////////////// E-TASK ENDS //////////////////////////////////
+
+// Shunday function tuzing, u bitta string argumentni qabul qilib osha stringni teskari qilib return qilsin.
+// MASALAN: getReverse("hello") return qilsin "olleh"
+
+// function get_reverse(str) {
+//   // empty string
+//   let new_string = "";
+//   for (let i = str.length - 1; i >= 0; i--) {
+//     new_string += str[i];
+//   }
+//   return new_string;
+// }
+// const result = get_reverse("hello");
+// console.log("result:", result);
+
+// const result2 = get_reverse("koobkrow");
+// console.log("result2:", result2);
+
+////////////////////////////////// E-TASK ENDS //////////////////////////////////
 
 
 
